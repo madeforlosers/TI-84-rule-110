@@ -1,0 +1,10 @@
+ClrDraw
+Pxl-On(1,93
+For(Y,1,61
+For(X,93-Y,93
+pxl-Test(Y,X+1→R
+pxl-Test(Y,X-1→L
+pxl-Test(Y,X
+Pxl-On(Y+1,X*(LAnsnot(R)+LRnot(Ans)+AnsRnot(L)+Ansnot(L+R)+Rnot(L+Ans
+End
+End
